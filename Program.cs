@@ -10,7 +10,7 @@ namespace ProjectEuler15
     {
         static void Main(string[] args)
         {
-            var alg = new Algorithm();
+            var alg = new AlgorithmQuick();
             Console.WriteLine(alg.Run());
             Console.Read();
         }
